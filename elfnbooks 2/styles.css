@@ -1,0 +1,156 @@
+body {
+    text-align:center;
+}
+.grid-container {
+    display:grid;
+    grid-template-columns:1250px;
+    grid-template-rows:80px;
+}
+
+.header {
+    padding:28px;
+    margin-left:100px;
+    margin-top:10px;
+    background:rgb(64, 111, 150, 0.45);
+}
+
+.login{
+    float:right;
+    margin-top: -16px;
+    margin-right:-20px;
+    padding:10px 20px;
+    
+    text-decoration:none;
+    font-size:18px;
+    font-family:'Helvetica'; 
+    border:1px solid rgb(64, 111, 150);
+    background-color:rgb(64, 111, 150);
+    color:white;
+}
+
+.sign {
+    float:right;
+    margin-right:10px;
+    margin-top:-16px;
+    padding:10px 20px;
+    
+    text-decoration:none;
+    font-size:18px;
+    font-family:'Helvetica'; 
+    border:1px solid rgb(64, 111, 150);
+    background-color:rgb(64, 111, 150);
+    color:white;
+}
+
+.sign:hover {
+    background-color:black;
+    color:rgb(192,192,192);
+}
+
+.login:hover {
+    background-color:black;
+    color:rgb(192,192,192);
+}
+
+.logo {
+    margin-left: -140px;
+    margin-top:-35px;
+    float:left;
+}
+
+.signup p {
+    font-family:'American Typewriter';
+    font-size:38px;
+    text-align:center;
+    margin-left:130px;
+    margin-bottom:-20px;
+    padding:0;
+} /*DONE*/
+
+label {
+    font-family:'American Typewriter';
+    font-size:23px;
+    display:inline-block;
+    width:140px;
+    text-align:left;   
+} /*align user type?*/
+
+input[type="text"] {
+    text-align:center;
+    width:250px;
+    margin-bottom:15px; 
+    padding:15px 35px;
+
+    font-size:15px;
+    border:1px solid rgb(64, 111, 150);
+    background-color:rgb(64, 111, 150);
+    color:white;
+} /*DONE*/
+
+select {
+    text-align-last:center;
+    width:250px;
+    margin-bottom:15px; 
+    padding:15px 15px;
+
+    font-size:17.8px;
+    border:1px solid rgb(64, 111, 150);
+    background-color:rgb(64, 111, 150);
+    color:white;
+} /*DONE*/
+
+input[type="submit"] {
+    text-align:center;
+    width:150px;
+    height:50px;
+    margin-left:133px; 
+    margin-bottom:15px; 
+
+    font-size:18px;
+    border:1px solid rgb(64, 111, 150);
+    background-color:rgb(64, 111, 150);
+    color:white;
+} /*DONE*/
+
+::placeholder {
+    font-size:18px;
+    color:white;
+} /*DONE*/
+
+footer {   
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+
+    font-family:'Helvetica';
+    background-color:rgb(64, 111, 150);
+    color:white; 
+    text-align:center;
+}
+.footer1 {
+    margin-left:10px;
+    float:left;
+}
+
+.footer2 {
+    margin-right:10px;
+    float:right;
+}
+.tumblr {
+    margin-top:10px;
+    margin-right:10px;
+    float:right;
+}
+
+.insta {
+    margin-top:9px;
+    margin-right:10px;
+    float:right;
+}
+
+.twt {
+    margin-top:13px;
+    margin-right:10px;
+    float:right;
+}
